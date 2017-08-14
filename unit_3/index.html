@@ -3,118 +3,111 @@
 <head>
 	<title>Land &#124; Mountain &#124; Sea</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+		img { width:300px; }
+	</style>
 </head>
-
 <body>
 	<header>
 		<div class="LogIn">
-			<ul>
-				<li>Log In</li>
-				<li>Sign Up</li>
-			</ul>
+			<a href="#">Log In</a>
+			<a href="#">Sign Up</a>
 		</div>
-
-		<div id="logo">
-			<a class="logo" href="index.html">
-			<img src="images/#####" alt="Land, Mountain, Sea logo">
-			</a>
-		</div>
-
+		<a class="logo" href="index.html"><img src="images/#####" alt="Land, Mountain, Sea logo"></a>
 		<nav>
-			<ul id="menu">
-				<li><a href="destinations.html">Destinations</a></li>
-				<li><a href="activity.html">Activity</a></li>
-				<li><a href="groups.html">Groups</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="blog.html">Blog</a></li>
-			</ul>
-			<span id="search"></span>
-			<span>Search</span>
+			<a href="destinations.html">Destinations</a>
+			<a href="activity.html">Activity</a>
+			<a href="groups.html">Groups</a>
+			<a href="about.html">About</a>
+			<a href="blog.html">Blog</a>
 		</nav>
+		<form>
+			<input type="text" id="search">
+			<input type="submit" value="search">
+		</form>
 	</header>
-
-	<main>
-		<div id="hero">
-			<h1>Experience the world on your own terms.</h1>
-			<div class="CalltoAction">
-				<a class="button" href="destinations.html" target="blank">Build your next adventure</a>
+	<section id="hero">
+		<h1>Experience the world on your own terms.</h1>
+		<a class="button" href="destinations.html" target="blank">Build your next adventure</a>
+	</section>
+	<section id="adventures">
+		<h2>Featured Adventures</h2>
+		<div class="dest-container">
+			<img class="float" src="images/sarah-crutchfield-549-2400px.png" alt="Amazon">
+			<div class="dest-container-text">
+				<h2>Amazon</h2>
+				<p>Exotic flora and wildlife</p>
+				<a class="explore" href="destinations/amazon.html">Explore</a>
 			</div>
 		</div>
-	
-		<h1>Featured Adventures</h1>
-
-			<div class="dest-container">
-				<img class="float" src="images/sarah-crutchfield-549-2400px.png" alt="Amazon">
-					<div class="dest-container-text">
-						<h2>Amazon</h2>
-						<p>Exotic flora and wildlife</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/amazon.html">Explore</a>
-						</p>
-					</div>
-				<img class="float" src="images/danka-peter-148724-2400px.png" alt="Eastern Europe">
-					<div class="dest-container-text">
-						<h2>Eastern Europe</h2>
-						<p>Tradition meets urban chic</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/EastEurope.html">Explore</a>
-						</p>
-					</div>
-				<img class="float" src="images/marcus-dall-col-1241-2400px.png" alt="Australia">
-					<div class="dest-container-text">
-						<h2>Australia</h2>
-						<p>Outback adventure</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/australia.html">Explore</a>
-						</p>
-					</div>
+		<div class="dest-container">
+			<img class="float" src="images/danka-peter-148724-2400px.png" alt="Eastern Europe">
+			<div class="dest-container-text">
+				<h2>Eastern Europe</h2>
+				<p>Tradition meets urban chic</p>
+				<a class="explore" href="destinations/EastEurope.html">Explore</a>
 			</div>
-
-			<div class="dest-container">
-				<img class="float" src="images/lydia-harper-252225-2400px.png" alt="Amazon">
-					<div class="dest-container-text">
-						<h2>Amazon</h2>
-						<p>Exotic flora and wildlife</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/amazon.html">Explore</a>
-						</p>
-					</div>
+		</div>
+		<div class="dest-container">
+			<img class="float" src="images/marcus-dall-col-1241-2400px.png" alt="Australia">
+			<div class="dest-container-text">
+				<h2>Australia</h2>
+				<p>Outback adventure</p>
+				<a class="explore" href="destinations/australia.html">Explore</a>
+			</div>
+		</div>
+		<div class="dest-container">
+			<img class="float" src="images/lydia-harper-252225-2400px.png" alt="Amazon">
+			<div class="dest-container-text">
+				<h2>Amazon</h2>
+				<p>Exotic flora and wildlife</p>
+				<a class="explore" href="destinations/amazon.html">Explore</a>
+			</div>
+		</div>
+		<div class="dest-container">
 				<img class="float" src="images/david-marcu-114194-2400px.png" alt="Eastern Europe">
 					<div class="dest-container-text">
 						<h2>Eastern Europe</h2>
 						<p>Tradition meets urban chic</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/EastEurope.html">Explore</a>
-						</p>
+						<a class="explore" href="destinations/EastEurope.html">Explore</a>
+					
 					</div>
+		</div>
+		<div class="dest-container">
 				<img class="float" src="images/matthew-kane-94147-2400px.png" alt="Australia">
-					<div class="dest-container-text">
-						<h2>Australia</h2>
-						<p>Outback Adventure</p>
-						<p class="destination-link">
-							<a class="explore" href="destinations/australia.html">Explore</a>
-						</p>
-					</div>
-			</div>
-
-			<div class="testimonial">
-				<hr style="line-above">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p class="attribution-name">John Smith</p>
-				<p class="attribution-place">Pasedena, California</p>
-			</div>
-
-			<div id="database-container">
-				<div class="DropDown-menu">
-					<img class="database-image" src="images/#####" alt="landscape">
-					<h3>Location</h3>
-					<!-- database functionality linked up here -->
+				<div class="dest-container-text">
+					<h2>Australia</h2>
+					<p>Outback Adventure</p>
+					<a class="explore" href="destinations/australia.html">Explore</a>
 				</div>
+			</div>
+	</section>
+	<section class="testimonial">
+		<hr class="line-above">
+		<blockquote>
+			<q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation <a href="#">ullamco laboris nisi</a> ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+			<cite class="attribution-name">John Smith<br><span class="attribution-place">Pasedena, California</span></cite>
+		</blockquote>
+	</section>
+	<section id="database-container">
+		<div class="DropDown-menu">
+			<img class="database-image" src="images/#####" alt="landscape">
+			<h3>Location</h3>
+			<form>
+				<select>
+					<option value="form value 1">Form Value 1</option>
+					<option value="form value 2">Form Value 2</option>
+					<option value="form value 3">Form Value 3</option>
+					<option value="form value 4">Form Value 4</option>
+				</select>
+			</form>
+		<!-- database functionality linked up here -->
+		</div>
 				<div class="DropDown-menu">
 					<img class="database-image" src="images/#####" alt="calendar">
 					<h3>Date</h3>
@@ -134,53 +127,44 @@
 				<div class="CalltoAction">
 					<a class="button" href="booking.html" target="blank">Book your adventure</a>
 				</div>
-			</div>
-	</main>
-
-	<section id="main-footer" class="site-footer">
-		<div id="logo-footer">
-			<a class="logo" href="index.html">
-			<img src="images/####" alt="Land, Mountain, Sea logo">
-			</a>
-		</div>
-
+	</section>
+	<footer id="main-footer" class="site-footer">
+		<a class="logo" href="index.html"><img src="images/####" alt="Land, Mountain, Sea logo"></a>
 		<div id="container-footer">
 			<ul class="list-footer">
 				<li></li>
 				<li></li>
 			</ul>
-		
-		
-			<ul class="list-footer">
-				<li></li>
-				<li></li>
-			</ul>
-		
-		
-			<ul class="list-footer">
-				<li></li>
-				<li></li>
-			</ul>
-		
-		
-			<ul class="list-footer">
-				<li></li>
-				<li></li>
-			</ul>
-		
-			<ul class="list-footer">
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-	</section>
 
-	<section id="disclaimer">
+
+				<ul class="list-footer">
+					<li></li>
+					<li></li>
+				</ul>
+
+
+				<ul class="list-footer">
+					<li></li>
+					<li></li>
+				</ul>
+
+
+				<ul class="list-footer">
+					<li></li>
+					<li></li>
+				</ul>
+
+				<ul class="list-footer">
+					<li></li>
+					<li></li>
+				</ul>
+		</div>
+		<section id="disclaimer">
 			<a href="XXX">Privacy Policy</a>
 			<a href="XXX">Terms &amp; Conditions</a>
 			<a href="XXX">Travel Agent</a>
 			<a href="XXX">Contact Us</a>
-	</section>
-
+		</section>
+	</footer>
 </body>
 </html>
