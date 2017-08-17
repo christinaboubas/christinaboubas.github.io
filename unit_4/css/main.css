@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
+
+
+h1, h2, h3 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+img { 
+	width:300px; 
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+
+q {
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+}
+
+.logo {
+	width: 100px;
+}
+
+.database-image {
+	width: 5%;
+}
+
+.attribution-name {
+	font-family: 'Oxygen', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.attribution-place {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: .7em;
+}
+
+section#hero {
+	background-image: url("../images/davide-cantelli-139887.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1000px;
+	/*background-size: cover;
+	height: 0;
+	padding-top: 66.72%;*/
+}
