@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Oxygen');
+
+body, html {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	background-color: #FFF;
+}
+
+header {
+	background-color: #FFF;
+	padding: 20px 10px;
+}
+
+nav {
+	background-color: #FFF;
+	color: #444342;
+	margin-top: 30px;
+	padding: 10px;
+	float: right;
+}
+
+h1, h2, h3 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #464646;
+}
+
+h2 {
+	font-size: 1.8em;
+	text-align: center;
+	color: #464646;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	width: 30em;
+	line-height: 1.5em;
+}
+
+/*img { 
+	width:300px; 
+}*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+
+header a:hover {
+	opacity: .7;
+}
+
+#adventures a:hover {
+	opacity: .7;
+}
+
+q {
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #464646;
+}
+
+li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+}
+
+footer {
+	background-color: #464646;
+	color: #ffffff;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.LogIn {
+	float: right;
+	clear: both;
+}
+
+nav a {
+	padding: 10px;
+}
+
+.LogIn a {
+	padding: 10px;
+	color: #356DB1;
+	font-weight: 400;
+}
+
+.logo {
+	
+}
+
+.logo img {
+	width: 8%
+}
+
+.form {
+	clear: both;
+}
+
+.bg {
+	height: 100%;
+}
+
+#database-container {
+	clear: both;
+	margin-top: 5em;
+}
+
+.database-image {
+	width: 25%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.DropDown-menu {
+	float: left;
+	width: 20%;
+	padding: 1em;
+	background-color: #C5F2B6;
+	border: 1px solid;
+}
+
+.DropDown-menu h3 {
+	font-size: 1.25em;
+}
+
+.CalltoAction {
+	margin: 2em auto;
+	clear: both;
+}
+
+.dest-container {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	color: #ffffff;
+	background-color: #000;
+}
+
+.dest-container img {
+	width: 100%;
+}
+
+.dest-container-text {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 5em;
+}
+
+.dest-container-text h3 {
+	border-bottom: 3px #9DA0A4 solid;
+	width: 20%;
+	margin: 0 auto;
+	padding-bottom: 10px; 
+	letter-spacing: .1em;
+}
+
+
+/*.dest-container .explore-2 {
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+.attribution-name {
+	font-family: 'Oxygen', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1em;
+	color: #464646;
+}
+
+.attribution-place {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: .7em;
+	color: #464646;
+}
+
+.buttonBackground {
+	width: 500px;
+	background-color: black;
+}
+
+.button {
+	background-color: black;
+	padding: 10px;
+	opacity: 1.0;
+	color: #ffffff;
+}
+
+.explore {
+	background-color: #9DA0A4;
+	padding: .5em;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero {
+	background-image: url("../images/davide-cantelli-139887-cropped.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70%;
+	text-align: center;
+	padding: 20em 10em;
+}
+
+#hero-text {
+	width: 500px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	opacity: 0.65;
+	padding: 5em;
+}
+
+#hero-text h1 a {
+	opacity: 1.0;
+}
+
+#adventures {
+	margin: 4em 0;
+}
+
+.explore-2 img {
+	min-height: 80%;
+}
+
+#testimonial {
+	margin-top: 10em;
+	text-align: center;
+	padding: 0 15em;
+	line-height: 1.8em;
+}
+
+#testimonial hr {
+	width: 30%;
+	background-color: #A0A0A0;
+	height: 3px;
+}
+
+
