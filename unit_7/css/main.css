@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Oxygen');
+* { margin:0; padding:0; box-sizing:border-box;}
+
+body {
+	font-size: 16px;
+	background-color: #FFF;
+}
+
+header {
+	background-color: #FFF;
+	padding: 20px 10px;
+}
+
+nav {
+	background-color: #FFF;
+	color: #444342;
+	margin-top: 30px;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+}
+
+h1, h2, h3 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #464646;
+}
+
+h2 {
+	font-size: 1.8em;
+	text-align: center;
+	color: #464646;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	/* width: 30em; */
+	line-height: 1.5em;
+}
+
+/*img { 
+	width:300px; 
+}*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+
+nav form {
+	display: inline-block;
+}
+
+header a:hover {
+	opacity: .7;
+}
+
+#hero-text a:hover {
+	opacity: .7
+}
+
+#adventures a:hover {
+	opacity: .7;
+}
+
+.CalltoAction a:hover {
+	opacity: .7;
+}
+
+hr {
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+q {
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #464646;
+}
+
+#testimonial cite {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+}
+
+footer {
+	background-color: #464646;
+	color: #ffffff;
+	padding: 20px;
+}
+
+.footer-list-header {
+	text-transform: uppercase;
+	line-height: 3em;
+	letter-spacing: .075em;
+}
+
+.list-footer {
+	line-height: 1.5em;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.LogIn {
+	float: right;
+}
+
+
+
+nav a {
+	padding: 10px 20px;
+	display: inline;
+}
+
+.LogIn a {
+	padding: 10px;
+	color: #356DB1;
+	font-weight: 400;
+}
+
+.logo {
+	
+}
+
+.logo img {
+	width: 10%
+}
+
+.form {
+	padding-left: 20px;
+
+}
+
+.bg {
+	height: 100%;
+}
+
+#database-container {
+	clear: both;
+	margin: 0 auto;
+	margin-top: 5em;
+	width: 80%;
+}
+
+.database-image {
+	width: 25%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.DropDown-menu {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	background-color: #FFFFFF;
+	border: none;
+	text-align: center;
+}
+
+.DropDown-menu h3 {
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+
+.CalltoAction {
+	margin: 2em auto;
+	display: inline-block;
+}
+
+
+.dest-container {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	color: #ffffff;
+	background-color: #000;
+}
+
+.dest-container-text p {
+	margin: 1em 0;
+}
+
+.dest-container img {
+	width: 100%;
+	height: 335px;
+	display: block;
+	margin: auto;
+}
+
+.dest-container-text {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	padding: 5em;
+	top: 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.dest-container-text h3 {
+	border-bottom: 2px #ffffff solid;
+	display: inline-block;
+	padding-bottom: 10px;
+	letter-spacing: .1em;
+}
+
+
+/*.dest-container .explore-2 {
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+.attribution-name {
+	font-family: 'Oxygen', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1em;
+	color: #464646;
+}
+
+.attribution-place {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: .7em;
+	color: #464646;
+}
+
+.buttonBackground {
+	width: 500px;
+	background-color: black;
+}
+
+.button {
+	background-color: black;
+	padding: 10px;
+	opacity: 1.0;
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.explore {
+	background-color: #000000;
+	padding: 0.5em;
+	display: inline-block;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero {
+	background-image: url("../images/davide-cantelli-139887-cropped.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	text-align: center;
+	padding: 13em 0 0;
+}
+
+#hero-text {
+	width: 40em;
+	margin: auto;
+	margin-top: 7em;
+	background: rgba(255, 255, 255, .6);
+	padding: 3em;
+	position: relative;
+}
+
+#hero-text h1 a {
+	color: rgba(0, 0, 0, 1);
+}
+
+#adventures {
+	margin: 4em 0;
+}
+
+.explore-2 img {
+	min-height: 80%;
+}
+
+#testimonial {
+	margin: auto;
+	margin-top: 8em;
+	text-align: center;
+	padding: 0 15em;
+	line-height: 1.8em;
+	width: 75%
+}
+
+#testimonial hr {
+	width: 30%;
+	background-color: #A0A0A0;
+	height: 3px;
+}
+
+#container-footer {
+	width: 75%;
+	float: right;
+}
+
+#container-footer ul {
+	float: left;
+	width: 20%;
+	display: inline-block;
+}
+
+#main-footer .logo img {
+	display: inline-block;
+	width: 8%;
+}
+
+#main-footer {
+
+}
+
+#disclaimer {
+	clear: both;
+	float: right;
+}
