@@ -280,7 +280,7 @@ nav a {
 
 .explore {
 	background-color: #000000;
-	padding: 0.5em;
+	padding: 1em;
 	display: inline-block;
 }
 
@@ -302,7 +302,6 @@ nav a {
 #hero-text {
 	width: 40%;
 	margin: auto;
-	margin-top: 7em;
 	background: rgba(255, 255, 255, .6);
 	padding: 3em;
 	position: relative;
@@ -367,7 +366,7 @@ nav a {
 
 .footer-list-header a {
 	text-transform: uppercase;
-	line-height: 3em;
+	/* line-height: 3em; */
 	letter-spacing: .075em;
 }
 
@@ -380,7 +379,7 @@ nav a {
 }
 
 .list-footer a {
-	text-transform: none:
+	text-transform: none;
 }
 
 #disclaimer {
@@ -401,6 +400,12 @@ nav a {
 	text-align: center;
 	margin: auto;
 }
+.position {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
 
 @media only screen and (max-width: 1161px) {
 	#container-footer {
@@ -409,9 +414,10 @@ nav a {
 	}
 
 	#container-footer ul {
-		float: left;
-		width: 20%;
-		padding-left: 2em;
+		/* float: left; */
+		width: 33.33%;
+		/* padding-left: 2em; */
+		min-height: 9em;
 	}
 	.footer-list-header {
 		line-height: 1em;
@@ -476,7 +482,9 @@ nav a {
 		text-align: center;
 	}
 	#hero {
-		height: 75%;
+		height: initial;
+		padding: 13em 0;
+		background-image: url("../images/davide-cantelli-139887-cropped.jpg");
 	}
 
 }
@@ -517,7 +525,9 @@ nav a {
 	}
 	#ViewMyTrip {
 		margin-top: .5em;
-		display: inline-block;
+		display: block;
+		width: 15em;
+		margin: .5em auto;
 	}
 	#hero {
 		height: 50%;
